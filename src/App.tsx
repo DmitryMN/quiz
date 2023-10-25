@@ -1,9 +1,11 @@
-import {createBrowserRouter, RouterProvider} from 'react-router-dom';
+import React from 'react';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import Main from './components/Main';
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <div>Root Element</div>
+    element: <Main></Main>
   },
   {
     path: '/quiz',
@@ -16,10 +18,11 @@ const router = createBrowserRouter([
 ]);
 
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-    </div>
+    <>
+      <RouterProvider router={router} />
+    </>
   );
 }
 

@@ -1,0 +1,51 @@
+$main_highlite: #FBD784;
+
+
+.container {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    background: url('~/public/assets/background.jpg') no-repeat center top;
+    background-size: cover;
+
+}
+
+.main__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main__logo {
+    margin: 3rem 0;
+}
+
+.main__img {
+    width: 150px;
+    height: 150px;
+}
+
+.main__title {
+    color: $main_highlite;
+    font-size: 2.3rem;
+    margin-bottom: 3.1rem;
+    font-weight: 700;
+}
+
+.nav {
+    width: 360px;
+}
+
+.nav__auth {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__play {
+    width: 100%;
+    margin-bottom: 2.5rem;
+}
