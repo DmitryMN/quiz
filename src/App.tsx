@@ -1,6 +1,7 @@
 import React from 'react';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Main from './components/Main';
+import Play from './components/Play';
 
 const router = createBrowserRouter([
   {
@@ -8,8 +9,8 @@ const router = createBrowserRouter([
     element: <Main></Main>
   },
   {
-    path: '/quiz',
-    element: <div>Quiz Element</div>
+    path: '/play',
+    element: <Play />
   },
   {
     path: '/result',

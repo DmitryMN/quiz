@@ -15,10 +15,10 @@ const Main = () => {
                     </div>
                     <h1 className={style.main__title}>Твой Квиз</h1>
                     <div className={style.nav}>
-                        <Button className={style.nav__play} variant='contained'>Играть</Button>
+                        <Button href='/play' className={style.nav__play} variant='contained'>Играть</Button>
                         <div className={style.nav__auth}>
-                            <Button variant='contained'>Войти</Button>
-                            <Button variant='contained'>Выход</Button>
+                            <Button href='/login' variant='contained'>Войти</Button>
+                            <Button href='/register' variant='contained'>Выход</Button>
                         </div>
                     </div>
                 </section>
