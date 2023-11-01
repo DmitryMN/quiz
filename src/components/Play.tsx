@@ -8,7 +8,7 @@ const Play: React.FC<any> = () => {
             <h1 className={style.play__title}>Твой QUIZ</h1>
             <div className={style.questions}> 
                 <div className={style.questions__container}>
-                    <h5 className={style.questions__title}>Google was founded in what year</h5>
+                    <h5 className={style.questions__title}>Google was founded in what year?</h5>
                     <div className={style.questions__main}>
                         <p>1997</p>
                         <p>1998</p>
