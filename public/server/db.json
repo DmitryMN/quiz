@@ -1,83 +1,81 @@
 {
-    "quizzes": {
-        "js": [
-            {
-                "id": 1,
-                "question": "Какой параметр служит для задания толщины границы?",
-                "answer": "border-width",
-                "options": [
-                    "border-width",
-                    "border-all-width",
-                    "width",
-                    "border-style"
-                ]
-            },
-            {
-                "id": 2,
-                "question": "Какой код нумерует список строчными римскими цифрами?",
-                "answer": "<Ol type='i'>",
-                "options": [
-                    "<Ol type='i'>",
-                    "<Ul type='i'>",
-                    "<Dl type='i'>",
-                    "<Dl type='I'>"
-                ]
-            },
-            {
-                "id": 3,
-                "question": "Какое свойство позволяет вывести текст малыми прописными буквами?",
-                "answer": "font-variant",
-                "options": [
-                    "font-style",
-                    "font-variant",
-                    "font-weight",
-                    "font-family"
-                ]
-            },
-            {
-                "id": 4,
-                "question": "Какое свойство позволяет изменить интервал между символами?",
-                "answer": "letter-spacing",
-                "options": [
-                    "letter-spacing",
-                    "space",
-                    "para-spacing",
-                    "word-spacing"
-                ]
-            },
-            {
-                "id": 5,
-                "question": "Как скрыть элемент отображения на веб-странице в CSS?",
-                "answer": "display:none",
-                "options": [
-                    "hide:true",
-                    "display:none",
-                    "visibility:hidden",
-                    "visible:false"
-                ]
-            },
-            {
-                "id": 6,
-                "question": "Как изменить тип курсора при наведении на элемент в CSS?",
-                "answer": "cursor:pointer",
-                "options": [
-                    "cursor-type:pointer",
-                    "mouse-cursor:hand",
-                    "pointer:mouse",
-                    "cursor:pointer"
-                ]
-            },
-            {
-                "id": 7,
-                "question": "Какой тег используется для создания области текста в HTML?",
-                "answer": "<textarea>",
-                "options": [
-                    "<input>",
-                    "<textarea>",
-                    "<text>",
-                    "<field>"
-                ]
-            }
-        ]
-    }
+    "jsquiz": [
+        {
+            "id": 1,
+            "question": "Какой параметр служит для задания толщины границы?",
+            "answer": "border-width",
+            "options": [
+                "border-width",
+                "border-all-width",
+                "width",
+                "border-style"
+            ]
+        },
+        {
+            "id": 2,
+            "question": "Какой код нумерует список строчными римскими цифрами?",
+            "answer": "<Ol type='i'>",
+            "options": [
+                "<Ol type='i'>",
+                "<Ul type='i'>",
+                "<Dl type='i'>",
+                "<Dl type='I'>"
+            ]
+        },
+        {
+            "id": 3,
+            "question": "Какое свойство позволяет вывести текст малыми прописными буквами?",
+            "answer": "font-variant",
+            "options": [
+                "font-style",
+                "font-variant",
+                "font-weight",
+                "font-family"
+            ]
+        },
+        {
+            "id": 4,
+            "question": "Какое свойство позволяет изменить интервал между символами?",
+            "answer": "letter-spacing",
+            "options": [
+                "letter-spacing",
+                "space",
+                "para-spacing",
+                "word-spacing"
+            ]
+        },
+        {
+            "id": 5,
+            "question": "Как скрыть элемент отображения на веб-странице в CSS?",
+            "answer": "display:none",
+            "options": [
+                "hide:true",
+                "display:none",
+                "visibility:hidden",
+                "visible:false"
+            ]
+        },
+        {
+            "id": 6,
+            "question": "Как изменить тип курсора при наведении на элемент в CSS?",
+            "answer": "cursor:pointer",
+            "options": [
+                "cursor-type:pointer",
+                "mouse-cursor:hand",
+                "pointer:mouse",
+                "cursor:pointer"
+            ]
+        },
+        {
+            "id": 7,
+            "question": "Какой тег используется для создания области текста в HTML?",
+            "answer": "<textarea>",
+            "options": [
+                "<input>",
+                "<textarea>",
+                "<text>",
+                "<field>"
+            ]
+        }
+    ]
 }

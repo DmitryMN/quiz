@@ -6,12 +6,8 @@ export type QuizType = {
     options: string[]
 }
 
-export type JsQuizeType = {
-    js: QuizType[]
-}
-
-export type QizzesStateType = {
-    quizzes: JsQuizeType
+export type JsQuizStateType = {
+    jsquiz: QuizType[]
     loading: boolean
     error: string
 }

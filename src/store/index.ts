@@ -1,5 +1,11 @@
 import { configureStore } from '@reduxjs/toolkit';
+import { jsReducer } from './reducers/jsQuizSlice';
 
 const store = configureStore({
-    reducer: {}
-})
+    reducer: {
+        'jsquiz': jsReducer
+    }
+});
+
+export type RootState = ReturnType<typeof store.getState>;
+export type AppDispatch = typeof store.dispatch;
