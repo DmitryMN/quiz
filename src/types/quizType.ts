@@ -9,5 +9,5 @@ export type QuizType = {
 export type JsQuizStateType = {
     jsquiz: QuizType[]
     loading: boolean
-    error: string
+    error: string | undefined
 }

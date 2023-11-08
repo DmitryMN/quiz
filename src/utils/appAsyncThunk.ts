@@ -1,9 +1,10 @@
 import { createAsyncThunk } from '@reduxjs/toolkit';
+import { RootState, AppDispatch } from '../store';
 
 
 type AppAsyncThunkType = {
-    state: any
-    dispatch: any
+    state: RootState
+    dispatch: AppDispatch
     rejectValue: string
 }
 

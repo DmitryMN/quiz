@@ -1,8 +1,6 @@
-import { createAsyncThunk } from '@reduxjs/toolkit';
 import { createAppAsyncThunk } from '../../utils/appAsyncThunk';
-import { QuizType } from '../../types/quizType';
 import { jsQuizApi } from '../../api/QuizApi';
-import axios, { AxiosError } from 'axios';
+import axios from 'axios';
 
 
 // export const fetchJsQuiz = createAsyncThunk(
@@ -20,9 +18,11 @@ export const fetchJsQuiz = createAppAsyncThunk<any>(
             return response.data;
         } catch (e) {
             if(axios.isAxiosError(e)) {
-                console.log(e.status)
+                // console.log(e.status)
+                return e.status
             } else {
-                console.log(e)
+                // console.log(e)
+                return 'server error'
             }
         }
     }

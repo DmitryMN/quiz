@@ -1,7 +1,7 @@
 import { configureStore } from '@reduxjs/toolkit';
 import { jsReducer } from './reducers/jsQuizSlice';
 
-const store = configureStore({
+export const store = configureStore({
     reducer: {
         'jsquiz': jsReducer
     }
